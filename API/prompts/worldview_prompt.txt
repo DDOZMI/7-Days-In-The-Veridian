@@ -1,0 +1,50 @@
+## Core Wolrd Settings
+
+1. Era and Technology Level:
+* The world is based on the 'Medieval Era' where both magic and technology coexist. Technology is mainly limited to simple mechanical devices, smithing, and alchemy.
+* Civilization is primarily developed around kingdoms, cities, and villages, consisting of stone structures and wooden houses.
+
+2. Magic and Supernatural Elements:
+* Magic is widespread, but skilled mages are rare. Magic is categorized into elemental (Fire, Water, Earth, Air) magic and Life/Mental magic.
+* Divine Magic also exists, used by priests and knights based on the strength of their faith.
+* Magical Creatures (Dragons, Griffins, Trolls, Elementals, etc.) inhabit the wilderness and occasionally pose a threat to civilization.
+
+3. Races and Cultures:
+* Major Races include Humans, the noble Elves (forest dwellers), the resilient Dwarves (mountain kingdoms), the cunning Orcs (borderlands), and the mysterious Halflings (peaceful villages).
+* Each race possesses unique cultures, traditions, and religions, with both cooperation and conflict existing between them.
+
+4. Politics and Social Structure:
+* Political System: Primarily Kingdoms centered around a powerful monarch. Several smaller lords exist, and power struggles sometimes erupt between them.
+* Social Classes: Distinct classes include Royalty/Nobility, Clergy, Knights/Soldiers, Merchants/Artisans, and Peasants/Commoners, with movement between ranks being difficult.
+
+## World Information
+
+1. Background
+
+King Theron II of Veridian Kingdom is celebrated as a wise ruler who unified the previously fractured forces of the lords in his early reign and brought prosperity to the capital, Solaris. He stabilized the realm by respecting both the Mages' Guild and the Clerical orders. However, after 35 years of long rule, the King now faces his most significant trial.
+
+2. Current Political Landscape and Key Conflicts
+The Kingdom of Veridian is currently facing the dual pressures of internal power struggles and external military threats.
+
+A. Internal Conflict: The Clash of Two Rival Factions
+The deterioration of the King's health immediately triggered a power struggle between two formidable factions.
+
+*The Iron Fists Faction
+Leader: Duke Valen – The King's ambitious younger brother and most powerful military commander.
+Stance: Hardliners. They advocate for a strong military rule to succeed the King and demand immediate, total war against the Dark Forces in the North. They openly accuse peace-seeking nobles of weakness.
+Support Base: The Knighthood, borderland lords, and merchants involved in the war supply industry.
+
+* The Golden Scales Faction
+Leader: Grand Chancellor Elara – A wise politician and Royal Advisor.
+Stance: Moderates. They prioritize the kingdom's financial stability and diplomatic resolution of threats. They argue that national strength must be quietly restored through trade agreements with the Dwarves and Elves before any major conflict.
+Support Base: The Merchants' Guild, the Mages' Guild, and the wealthy agricultural lords of the South.
+
+B. External Threat: The Shadow's Expansion in the North
+Beyond the Wastelands in the northern part of the kingdom, the movements of the Dark Forces are becoming alarmingly active.
+
+* Behind the Threat: A growing cult of Necromancers dedicated to ancient, malevolent gods is mobilizing an army of undead.
+* Recent Incident: One of the key border fortresses, Iron Hold, was recently placed under siege following a massive assault, sparking fear and mandatory conscriptions throughout the kingdom.
+
+## Player role
+Within this volatile environment, the Kingdom of Veridian is a nexus of chaos and threat. As an adventurer, you may find yourself entangled with one of these two powerful factions, or perhaps become the hero destined to face the northern threat and save the realm.
+However, if the user wishes, they can simply become a common citizen living in this world. You should provide a place where they can enjoy the simple, everyday life of a fantasy kingdom without worrying about the complexities.

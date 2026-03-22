@@ -1,0 +1,139 @@
+Extract key entities from this roleplay novel conversation segment.
+
+# Entity Types to Extract
+
+## CHARACTER
+- Name: Character's name or identifier
+- Attributes:
+  * appearance: Physical description
+  * personality: Character traits, temperament
+  * abilities: Special skills or powers
+  * status: Current condition or state
+  * role: Position or function in the story
+  * background: Brief backstory if mentioned
+
+## LOCATION
+- Name: Place name
+- Attributes:
+  * description: Physical characteristics
+  * atmosphere: Mood or feeling of the place
+  * significance: Importance to the story
+  * type: indoor/outdoor, city/nature, etc.
+
+## OBJECT
+- Name: Object name
+- Attributes:
+  * description: Physical appearance
+  * significance: Importance or special properties
+  * owner: Who possesses it (if mentioned)
+  * function: What it's used for
+
+## RELATIONSHIP
+- Name: Description of the relationship
+- Attributes:
+  * entities: [character1, character2] (list of involved characters)
+  * relationship_type: friend, enemy, family, romantic, rival, etc.
+  * status: current state of the relationship
+  * history: Brief background if mentioned
+
+# Output Format
+
+Respond ONLY with valid JSON in this exact format:
+
+{{
+  "entities": [
+    {{
+      "name": "entity name in original language",
+      "type": "CHARACTER",
+      "attributes": {{
+        "appearance": "detailed description",
+        "personality": "character traits",
+        "status": "current condition"
+      }}
+    }},
+    {{
+      "name": "location name",
+      "type": "LOCATION",
+      "attributes": {{
+        "description": "physical description",
+        "atmosphere": "mood or feeling"
+      }}
+    }}
+  ]
+}}
+
+# Extraction Guidelines
+
+1. **Language Consistency**: Use the EXACT same language as the conversation
+   - If conversation is in Korean, all entity names and attributes MUST be in Korean
+
+2. **Explicit Information Only**: Extract ONLY information directly stated in the conversation
+   - Do not infer or assume details not mentioned
+   - Do not add interpretations
+
+3. **Name Consistency**: 
+   - Use the most frequently used version of names
+   - Preserve capitalization and spelling exactly as in source
+
+4. **Attribute Quality**:
+   - Keep attributes concise but informative (1-2 sentences each)
+   - Focus on narratively significant details
+   - Avoid redundancy across attributes
+
+5. **Prioritization**:
+   - Extract main characters before minor ones
+   - Include locations only if they're setting-significant
+   - Objects only if they have narrative importance
+   - Relationships only if explicitly established
+
+6. **JSON Validity**:
+   - Must be parseable JSON
+   - Use double quotes for all strings
+   - Escape special characters properly
+   - No trailing commas
+
+# Example Extraction
+
+Conversation:
+User: Karina is a witch who has long black hair and magical power. She lives alone at an anciant tower.
+AI: Understood. Karina has magical power. Is the tower located on top of a remote mountain?
+User: Yes, It is the place no one seeks out. Her past betrayal has left her distrusful of people.
+
+Extracted Entities:
+{{
+  "entities": [
+    {{
+      "name": "Karina",
+      "type": "CHARACTER",
+      "attributes": {{
+        "appearance": "Witch who has a long black hair",
+        "personality": "She don't trust people because of her past betrayal experience",
+        "abilities": "Magical power",
+        "status": "She lives alone in a anciant tower."
+      }}
+    }},
+    {{
+      "name": "Anciant tower",
+      "type": "LOCATION",
+      "attributes": {{
+        "description": "A tower located on top of a remote mountain",
+        "atmosphere": "The place that no one seeks out",
+        "significance": "Karina's house"
+      }}
+    }}
+  ]
+}}
+
+# Important Reminders
+
+- Output ONLY the JSON, no additional text before or after
+- Ensure all JSON is properly formatted and valid
+- Use the conversation's original language for all content
+- Extract only what is explicitly mentioned
+- Keep attribute values concise and focused
+- Use double curly braces {{{{ }}}} in templates to escape them
+
+Conversation:
+{conversation}
+
+Extracted Entities (JSON only):
